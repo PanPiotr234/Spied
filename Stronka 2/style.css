@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+header {
+    min-height: 100vh;    background-color:rgba(13, 134, 233, 0.8);
+    background-image: url(img/photo1.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 0;
+    background-size: 49%;
+}
+
+div.header {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+}
+
+header p {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 0;
+}
+
+p.two {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 70px;
+}
+
+header button {
+    border: 1px solid white;
+    background-color: rgba(255,255,255, .07);
+
+    font-size: 36px;
+    line-height: 90px;
+    color: white;
+    padding: 0 30px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+header button:hover {
+    background-color: rgba(255,255,255, 0.3);
+    cursor: pointer;
+}
+
+
+
+/* Sekcja 1 */
+
+section.one {
+    height: 100vh;
+}
+section.one h1 {
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
+section div.opis {
+    float: left;
+    width: 30%;
+    margin: 0 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section div.opis img {
+    width: 375px;
+}
+
+section.one h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+    line-height: 40px;
+}
+
+section.one p {
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+
+
+/* Sekcja 2 - PORTFOLIO */
+
+section.portfolio {
+    height: 260vh;
+    background-color: #1e1e1e;
+    margin-top: 100px;
+}
+
+section.portfolio h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+section.portfolio div.project {
+    margin: 0 130px 50px 130px;
+    background-color: #ff4f2c;
+}
+
+section.portfolio div.web img {
+    float: left;
+    width: 670px;
+}
+
+section.portfolio div.about h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    padding: 50px 0 20px 760px;
+}
+
+section.portfolio div.about p {
+    font-size: 21px;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+
+    padding: 50px 60px 20px 760px;
+}
+
+
+/* section 3 - MOTTO*/
+
+section.motto {
+    height: 110vh;
+    background-image: url(img/motto.jpg);
+    background-position: bottom -300px right 0;
+}
+
+section.motto div.mottobackground {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 63, 114, 0.5);
+}
+
+section.motto div.mottobackground h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 56px;
+    text-align: center;
+    color: white;
+    padding: 80px 0 150px 0;
+}
+
+section.motto div.mottobackground h2 {
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: white;
+    padding: 0 180px 30px 180px; 
+    text-align: center;
+}
+
+section.motto div.mottobackground p {
+    width: 100%;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+/* Section 3 - FREE TIME */
+
+section.freetime h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0 40px 0;
+}
+
+section.freetime div.góry h2 {
+    width: 50%;
+    background-color: rgba(255, 79, 44, 0.5);
+    position: absolute;
+    padding: 215.3px 0;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+section.freetime div.freetime img {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+
+/* section 3 - CONTACT */
+
+section.contact {
+    background-color: #111;
+    height: 100vh;
+}
+
+section.contact h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 50px 0 40px 0;
+}
+
+div.input {
+    position: absolute;
+    left: 26%;
+    float: left;
+    width: 50%;
+}
+
+
+div.input input[type=text], select {
+    display: block;
+    width: 337.51px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+div.input input.contents {
+    display: block;
+    width: 337.51px;
+    height: 200px;
+    padding: 12px 20px 146px 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+div.input input[type=email], select {
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 337.51px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+div.input button {
+    background-color: rgba(0,0,0, 0.1);
+    border: 1px solid white;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #fff;
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+
+div.input button:hover {
+    background-color: rgba(255,255,255, .2);
+    cursor: pointer;
+}
+
+
+
+div.icon {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+section.contact div.icon {
+    padding-left: 80px;
+    position: relative;
+    top: 25px;
+    width: 50%;
+}
+
+section.contact div.icon img{
+    opacity: 0.7;
+    float: left;
+    width: 50px;
+    margin: 0 17px 23px 0;
+}
+
+section.contact div.icon p { 
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #29a9df;
+}
+
+footer p {
+    width: 100%;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
